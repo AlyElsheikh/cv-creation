@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <div id="container">
+        <span>Frist Name</span> <input type="text" id="F_Name">
+        <span>Last Name</span> <input type="text" id="L_Name">
+        <span>Email</span> <input type="text" id="Email">
+        <span>Country</span> <input type="text" id="Country">
+        <span>About</span> <textarea id="About"></textarea>
+        <div class="ss" ><input type="button"  onclick="getResult()" value="Show My CV"> </div>
+    </div>
+
+    <div id="show" dir="rtl"> 
+       <div class="flex"><span>الأسم : </span> <div id="SName"></div></div> 
+       <div class="flex"> <span>الايميل : </span> <div id="SEmail"></div></div> 
+       <div class="flex"> <span>مكان الاقامه : </span> <div id="SCountry"></div></div> 
+       <div class="flex"> <span>نبذه عني : </span> <div id="SAbout"></div></div>
+       <div class="ss" ><input type="button"  onclick="CandN()" value="New CV"> </div>
+ 
+    </div>
+    
+
+
+<script src="javascript.js"></script>
+</body>
+</html>

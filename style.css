@@ -1,0 +1,91 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#container input {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid rgb(237, 220, 220);
+}
+
+#container input:focus{
+    border: 2px solid rgb(242, 137, 137);
+    outline: none;
+}
+
+
+
+#container span {
+    margin-left: 5px;
+}
+
+#container textarea {
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid rgb(237, 220, 220);
+}
+
+#container textarea:focus{
+    border: 2px solid rgb(242, 137, 137);
+    outline: none;
+}
+
+.ss{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.ss input{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid rgb(237, 220, 220);
+}
+.ss input:hover{
+    border: 2px solid rgb(242, 137, 137);
+    outline: none;
+}
+
+#show{
+    display: none;
+    width: 50%;
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.flex span {
+    margin: 0 5px;
+}
+
+
+.ss{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
